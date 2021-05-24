@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- blog_demo -->
 <div class="container max-w-full mx-auto">   
    <div class="text-center">
       <h2 class="text-5xl leading-10 my-12 font-bold mb-4 text-gray-900 tracking-tight">My Diary</h2>
@@ -9,7 +8,7 @@
    <div style="max-width: 150px;" class="grid mx-auto text-center">
          <a href="/home/create" class="bg-green-500 tracking-tight text-white px-5 py-3 mb-3 shadow-lg rounded hover:shadow hover:bg-green-600 my-4">Add post</a>
    </div>      
-   <!-- blog_demo -->
+   
    <div style="width: 900px;" class="container max-w-full mx-auto pt-4">
       <div class="mt-2 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
          @foreach($posts as $post)

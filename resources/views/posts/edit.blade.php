@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- blog_demo -->
    <div class="bg-gray-50 h-full md:grid md:grid-cols-12">
       <div class="py-16 px-4 md:px-0 md:col-start-4 md:col-span-6">
          <h2 class="text-4xl leading-10 tracking-tight font-bold text-gray-900 text-center">New Post</h2>

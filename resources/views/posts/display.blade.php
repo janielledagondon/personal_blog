@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- blog_demo -->
    <div class="bg-gray-50 py-16 px-4 sm:grid sm:grid-cols-12">
       <div class="sm:col-start-4 sm:col-span-6">
       <div>
